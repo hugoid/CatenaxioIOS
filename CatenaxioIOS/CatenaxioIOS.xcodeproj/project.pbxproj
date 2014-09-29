@@ -19,6 +19,26 @@
 		21A80ACE19D49C7A00FFE67D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB619D49C7A00FFE67D /* UIKit.framework */; };
 		21A80AD619D49C7A00FFE67D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A80AD419D49C7A00FFE67D /* InfoPlist.strings */; };
 		21A80AD819D49C7A00FFE67D /* CatenaxioIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A80AD719D49C7A00FFE67D /* CatenaxioIOSTests.m */; };
+		21AE7A9319D6B7ED00E9FCEC /* HIDPantallaPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7A9119D6B7ED00E9FCEC /* HIDPantallaPrincipal.m */; };
+		21AE7A9419D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7A9219D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib */; };
+		21AE7A9719D6BB3E00E9FCEC /* HIDCalendario.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7A9619D6BB3E00E9FCEC /* HIDCalendario.m */; };
+		21AE7A9B19D6BBD600E9FCEC /* HIDObjetoCalendario.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7A9A19D6BBD600E9FCEC /* HIDObjetoCalendario.m */; };
+		21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7A9D19D6BF8900E9FCEC /* CeldaTablaCalendario.xib */; };
+		21AE7AA119D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA019D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m */; };
+		21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA319D6CE6800E9FCEC /* HIDConvocatoria.m */; };
+		21AE7AA619D6CE6800E9FCEC /* HIDConvocatoria.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */; };
+		21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */; };
+		21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */; };
+		21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */; };
+		21CAAE1B19D81A1100123607 /* HIDCeldaEstadisticaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */; };
+		21CAAE1F19D8246A00123607 /* HIDLiga.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1D19D8246A00123607 /* HIDLiga.m */; };
+		21CAAE2019D8246A00123607 /* HIDLiga.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE1E19D8246A00123607 /* HIDLiga.xib */; };
+		21CAAE2419D8251200123607 /* HIDPartidosGanados.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE2219D8251200123607 /* HIDPartidosGanados.m */; };
+		21CAAE2519D8251200123607 /* HIDPartidosGanados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE2319D8251200123607 /* HIDPartidosGanados.xib */; };
+		21CAAE2919D8252700123607 /* HIDPartidosEmpatados.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE2719D8252700123607 /* HIDPartidosEmpatados.m */; };
+		21CAAE2A19D8252700123607 /* HIDPartidosEmpatados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE2819D8252700123607 /* HIDPartidosEmpatados.xib */; };
+		21CAAE2E19D8253700123607 /* HIDPartidosPerdidos.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */; };
+		21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +68,38 @@
 		21A80AD319D49C7A00FFE67D /* CatenaxioIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatenaxioIOSTests-Info.plist"; sourceTree = "<group>"; };
 		21A80AD519D49C7A00FFE67D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21A80AD719D49C7A00FFE67D /* CatenaxioIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatenaxioIOSTests.m; sourceTree = "<group>"; };
+		21AE7A9019D6B7ED00E9FCEC /* HIDPantallaPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDPantallaPrincipal.h; sourceTree = "<group>"; };
+		21AE7A9119D6B7ED00E9FCEC /* HIDPantallaPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDPantallaPrincipal.m; sourceTree = "<group>"; };
+		21AE7A9219D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDPantallaPrincipal.xib; sourceTree = "<group>"; };
+		21AE7A9519D6BB3E00E9FCEC /* HIDCalendario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCalendario.h; sourceTree = "<group>"; };
+		21AE7A9619D6BB3E00E9FCEC /* HIDCalendario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCalendario.m; sourceTree = "<group>"; };
+		21AE7A9919D6BBD600E9FCEC /* HIDObjetoCalendario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDObjetoCalendario.h; sourceTree = "<group>"; };
+		21AE7A9A19D6BBD600E9FCEC /* HIDObjetoCalendario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDObjetoCalendario.m; sourceTree = "<group>"; };
+		21AE7A9D19D6BF8900E9FCEC /* CeldaTablaCalendario.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaTablaCalendario.xib; sourceTree = "<group>"; };
+		21AE7A9F19D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCeldaTablaCalendarioCell.h; sourceTree = "<group>"; };
+		21AE7AA019D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCeldaTablaCalendarioCell.m; sourceTree = "<group>"; };
+		21AE7AA219D6CE6800E9FCEC /* HIDConvocatoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDConvocatoria.h; sourceTree = "<group>"; };
+		21AE7AA319D6CE6800E9FCEC /* HIDConvocatoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDConvocatoria.m; sourceTree = "<group>"; };
+		21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDConvocatoria.xib; sourceTree = "<group>"; };
+		21AE7AA719D6CF1300E9FCEC /* HIDEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDEstadisticas.h; sourceTree = "<group>"; };
+		21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDEstadisticas.m; sourceTree = "<group>"; };
+		21CAAE1419D812B300123607 /* HIDObjetoEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDObjetoEstadisticas.h; sourceTree = "<group>"; };
+		21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDObjetoEstadisticas.m; sourceTree = "<group>"; };
+		21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaEstadisticas.xib; sourceTree = "<group>"; };
+		21CAAE1919D81A1100123607 /* HIDCeldaEstadisticaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCeldaEstadisticaCell.h; sourceTree = "<group>"; };
+		21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCeldaEstadisticaCell.m; sourceTree = "<group>"; };
+		21CAAE1C19D8246A00123607 /* HIDLiga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDLiga.h; sourceTree = "<group>"; };
+		21CAAE1D19D8246A00123607 /* HIDLiga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDLiga.m; sourceTree = "<group>"; };
+		21CAAE1E19D8246A00123607 /* HIDLiga.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDLiga.xib; sourceTree = "<group>"; };
+		21CAAE2119D8251200123607 /* HIDPartidosGanados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDPartidosGanados.h; sourceTree = "<group>"; };
+		21CAAE2219D8251200123607 /* HIDPartidosGanados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDPartidosGanados.m; sourceTree = "<group>"; };
+		21CAAE2319D8251200123607 /* HIDPartidosGanados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDPartidosGanados.xib; sourceTree = "<group>"; };
+		21CAAE2619D8252700123607 /* HIDPartidosEmpatados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDPartidosEmpatados.h; sourceTree = "<group>"; };
+		21CAAE2719D8252700123607 /* HIDPartidosEmpatados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDPartidosEmpatados.m; sourceTree = "<group>"; };
+		21CAAE2819D8252700123607 /* HIDPartidosEmpatados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDPartidosEmpatados.xib; sourceTree = "<group>"; };
+		21CAAE2B19D8253700123607 /* HIDPartidosPerdidos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDPartidosPerdidos.h; sourceTree = "<group>"; };
+		21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDPartidosPerdidos.m; sourceTree = "<group>"; };
+		21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDPartidosPerdidos.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +159,9 @@
 		21A80AB819D49C7A00FFE67D /* CatenaxioIOS */ = {
 			isa = PBXGroup;
 			children = (
+				21AE7A9C19D6BF6B00E9FCEC /* CeldasTablas */,
+				21AE7A9819D6BBBC00E9FCEC /* Modelos */,
+				21AE7A8F19D6B7CE00E9FCEC /* Controladores */,
 				21A80AC119D49C7A00FFE67D /* HIDAppDelegate.h */,
 				21A80AC219D49C7A00FFE67D /* HIDAppDelegate.m */,
 				21A80AC419D49C7A00FFE67D /* Images.xcassets */,
@@ -142,6 +197,59 @@
 				21A80AD419D49C7A00FFE67D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21AE7A8F19D6B7CE00E9FCEC /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				21AE7A9019D6B7ED00E9FCEC /* HIDPantallaPrincipal.h */,
+				21AE7A9119D6B7ED00E9FCEC /* HIDPantallaPrincipal.m */,
+				21AE7A9219D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib */,
+				21AE7A9519D6BB3E00E9FCEC /* HIDCalendario.h */,
+				21AE7A9619D6BB3E00E9FCEC /* HIDCalendario.m */,
+				21AE7AA219D6CE6800E9FCEC /* HIDConvocatoria.h */,
+				21AE7AA319D6CE6800E9FCEC /* HIDConvocatoria.m */,
+				21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */,
+				21AE7AA719D6CF1300E9FCEC /* HIDEstadisticas.h */,
+				21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */,
+				21CAAE1C19D8246A00123607 /* HIDLiga.h */,
+				21CAAE1D19D8246A00123607 /* HIDLiga.m */,
+				21CAAE1E19D8246A00123607 /* HIDLiga.xib */,
+				21CAAE2119D8251200123607 /* HIDPartidosGanados.h */,
+				21CAAE2219D8251200123607 /* HIDPartidosGanados.m */,
+				21CAAE2319D8251200123607 /* HIDPartidosGanados.xib */,
+				21CAAE2619D8252700123607 /* HIDPartidosEmpatados.h */,
+				21CAAE2719D8252700123607 /* HIDPartidosEmpatados.m */,
+				21CAAE2819D8252700123607 /* HIDPartidosEmpatados.xib */,
+				21CAAE2B19D8253700123607 /* HIDPartidosPerdidos.h */,
+				21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */,
+				21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
+		21AE7A9819D6BBBC00E9FCEC /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				21AE7A9919D6BBD600E9FCEC /* HIDObjetoCalendario.h */,
+				21AE7A9A19D6BBD600E9FCEC /* HIDObjetoCalendario.m */,
+				21CAAE1419D812B300123607 /* HIDObjetoEstadisticas.h */,
+				21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+		21AE7A9C19D6BF6B00E9FCEC /* CeldasTablas */ = {
+			isa = PBXGroup;
+			children = (
+				21AE7A9D19D6BF8900E9FCEC /* CeldaTablaCalendario.xib */,
+				21AE7A9F19D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.h */,
+				21AE7AA019D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m */,
+				21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */,
+				21CAAE1919D81A1100123607 /* HIDCeldaEstadisticaCell.h */,
+				21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */,
+			);
+			name = CeldasTablas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +328,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */,
+				21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */,
 				21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */,
+				21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */,
+				21CAAE2019D8246A00123607 /* HIDLiga.xib in Resources */,
 				21A80AC519D49C7A00FFE67D /* Images.xcassets in Resources */,
+				21CAAE2A19D8252700123607 /* HIDPartidosEmpatados.xib in Resources */,
+				21AE7A9419D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib in Resources */,
+				21AE7AA619D6CE6800E9FCEC /* HIDConvocatoria.xib in Resources */,
+				21CAAE2519D8251200123607 /* HIDPartidosGanados.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +356,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CAAE2919D8252700123607 /* HIDPartidosEmpatados.m in Sources */,
+				21CAAE2E19D8253700123607 /* HIDPartidosPerdidos.m in Sources */,
+				21AE7A9319D6B7ED00E9FCEC /* HIDPantallaPrincipal.m in Sources */,
+				21AE7A9719D6BB3E00E9FCEC /* HIDCalendario.m in Sources */,
+				21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */,
+				21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */,
+				21AE7AA119D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m in Sources */,
+				21AE7A9B19D6BBD600E9FCEC /* HIDObjetoCalendario.m in Sources */,
+				21CAAE1B19D81A1100123607 /* HIDCeldaEstadisticaCell.m in Sources */,
+				21CAAE2419D8251200123607 /* HIDPartidosGanados.m in Sources */,
 				21A80AC319D49C7A00FFE67D /* HIDAppDelegate.m in Sources */,
+				21CAAE1F19D8246A00123607 /* HIDLiga.m in Sources */,
 				21A80ABF19D49C7A00FFE67D /* main.m in Sources */,
+				21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +570,7 @@
 				21A80ADD19D49C7A00FFE67D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21A80ADE19D49C7A00FFE67D /* Build configuration list for PBXNativeTarget "CatenaxioIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +579,7 @@
 				21A80AE019D49C7A00FFE67D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

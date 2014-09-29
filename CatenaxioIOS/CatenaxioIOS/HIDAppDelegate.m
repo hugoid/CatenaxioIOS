@@ -7,6 +7,7 @@
 //
 
 #import "HIDAppDelegate.h"
+#import "HIDPantallaPrincipal.h"
 
 @implementation HIDAppDelegate
 
@@ -16,6 +17,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //controlador y UINavigation
+    HIDPantallaPrincipal *controlador=[[HIDPantallaPrincipal alloc]init];
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:controlador];
+    self.window.rootViewController=nav;
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 

@@ -9,6 +9,7 @@
 #import "HIDEstadisticas.h"
 #import "HIDObjetoEstadisticas.h"
 #import "HIDCeldaEstadisticaCell.h"
+#import "HIDWebController.h"
 @interface HIDEstadisticas ()
 
 @end
@@ -16,6 +17,15 @@
 @implementation HIDEstadisticas
 
 NSMutableArray *celdasEstadisticas;
+HIDObjetoEstadisticas *abel;
+HIDObjetoEstadisticas *anton;
+HIDObjetoEstadisticas *cano;
+HIDObjetoEstadisticas *hugo;
+HIDObjetoEstadisticas *jordan;
+HIDObjetoEstadisticas *juanito;
+HIDObjetoEstadisticas *meri;
+HIDObjetoEstadisticas *fer;
+UIActivityIndicatorView *indicador;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -25,76 +35,77 @@ NSMutableArray *celdasEstadisticas;
         celdasEstadisticas=[[NSMutableArray alloc]initWithCapacity:8];
         
         //abel
-        HIDObjetoEstadisticas *abel=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"abel"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        //abel
+        abel=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"abel"]
+                                               withTotales:@"0"
+                                               withJugados:@"0"
+                                               withGanados:@"0"
+                                                 withGoles:@"0"
+                                            withPorcentaje:@"0"
+                                            withAsistencia:@"0"];
         [celdasEstadisticas addObject:abel];
         
-        HIDObjetoEstadisticas *anton=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"anton"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        anton=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"anton"]
+                                                withTotales:@"0"
+                                                withJugados:@"0"
+                                                withGanados:@"0"
+                                                  withGoles:@"0"
+                                             withPorcentaje:@"0"
+                                             withAsistencia:@"0"];
         [celdasEstadisticas addObject:anton];
         
-        HIDObjetoEstadisticas *cano=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"hector"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        cano=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"hector"]
+                                               withTotales:@"0"
+                                               withJugados:@"0"
+                                               withGanados:@"0"
+                                                 withGoles:@"0"
+                                            withPorcentaje:@"0"
+                                            withAsistencia:@"0"];
         [celdasEstadisticas addObject:cano];
         
-        HIDObjetoEstadisticas *hugo=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"hugo3"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        hugo=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"hugo3"]
+                                               withTotales:@"0"
+                                               withJugados:@"0"
+                                               withGanados:@"0"
+                                                 withGoles:@"0"
+                                            withPorcentaje:@"0"
+                                            withAsistencia:@"0"];
         [celdasEstadisticas addObject:hugo];
         
-        HIDObjetoEstadisticas *jordan=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"jordan"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        jordan=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"jordan"]
+                                                 withTotales:@"0"
+                                                 withJugados:@"0"
+                                                 withGanados:@"0"
+                                                   withGoles:@"0"
+                                              withPorcentaje:@"0"
+                                              withAsistencia:@"0"];
         [celdasEstadisticas addObject:jordan];
         
-        HIDObjetoEstadisticas *juanito=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"juanito"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        juanito=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"juanito"]
+                                                  withTotales:@"0"
+                                                  withJugados:@"0"
+                                                  withGanados:@"0"
+                                                    withGoles:@"0"
+                                               withPorcentaje:@"0"
+                                               withAsistencia:@"0"];
         [celdasEstadisticas addObject:juanito];
         
-        HIDObjetoEstadisticas *meri=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"meri"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        meri=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"meri"]
+                                               withTotales:@"0"
+                                               withJugados:@"0"
+                                               withGanados:@"0"
+                                                 withGoles:@"0"
+                                            withPorcentaje:@"0"
+                                            withAsistencia:@"0"];
         [celdasEstadisticas addObject:meri];
         
-        HIDObjetoEstadisticas *fer=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"fer"]
-                                                                      withTotales:@"4"
-                                                                      withJugados:@"6"
-                                                                      withGanados:@"0"
-                                                                        withGoles:@"4"
-                                                                   withPorcentaje:@"10"
-                                                                   withAsistencia:@"4"];
+        fer=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"fer"]
+                                              withTotales:@"0"
+                                              withJugados:@"0"
+                                              withGanados:@"0"
+                                                withGoles:@"0"
+                                           withPorcentaje:@"0"
+                                           withAsistencia:@"0"];
         [celdasEstadisticas addObject:fer];
     
     }
@@ -133,7 +144,7 @@ NSMutableArray *celdasEstadisticas;
                                                                                    action:@selector(pulsarBotonActualizar:)];
     //self.navigationItem.rightBarButtonItem=botonActualizar;
     
-    UIBarButtonItem *botonGrafica=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks
+    UIBarButtonItem *botonGrafica=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
                                                                                    target:self
                                                                                    action:@selector(pulsarBotonGrafica:)];
     //self.navigationItem.rightBarButtonItem=botonActualizar;
@@ -258,7 +269,7 @@ NSMutableArray *celdasEstadisticas;
     NSLog(@"update");
     
     
-    UIActivityIndicatorView *indicador=[[UIActivityIndicatorView alloc]init];
+    indicador=[[UIActivityIndicatorView alloc]init];
     indicador.center=self.view.center;
     [indicador setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
     
@@ -266,21 +277,240 @@ NSMutableArray *celdasEstadisticas;
     [self.view addSubview:indicador];
     [indicador startAnimating];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        UIAlertView *alerta=[[UIAlertView alloc]initWithTitle:@"Estadisticas"
-                                                      message:@"Datos Actualizados"
-                                                     delegate:nil
-                                            cancelButtonTitle:nil
-                                            otherButtonTitles:@"OK", nil];
-        [alerta show];
-        [indicador stopAnimating];
-    });
+    
+    [self descargarInformacion];
     
 }
 
 -(void) pulsarBotonGrafica:(id) sender{
     NSLog(@"grafica");
+     [self mostrarGrafica];
     
+}
+
+#pragma mark -Download informatino
+-(void) descargarInformacion{
+    
+    NSString *link =
+    @"http://hidandroid.hol.es/catenaxio/obtener_estadisticas.php";
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:link]];
+    
+    [NSURLConnection sendAsynchronousRequest:request
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response,
+                                               NSData *data,
+                                               NSError *connectionError) {
+                               // handle response
+                               NSString * text = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+                               NSDictionary *notesJSON =[NSJSONSerialization JSONObjectWithData:data
+                                                                                        options:NSJSONReadingAllowFragments
+                                                                                          error:&connectionError];
+                               //NSLog(@"Los datos son %@",notesJSON);
+                               [notesJSON enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+                                   //
+                                   //if ([[obj objectForKey:@"jugador"] isEqualToString:@"Abel"]) {
+                                   
+                                       NSLog(@"El objeto filtro %@",[obj objectAtIndex:5]);
+                                   
+                                   //}
+                                   
+                                   //inserto valores
+                                   [abel modificowithTotales:[[obj objectAtIndex:0] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:0] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:0] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:0] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                               withAsistencia:[[obj objectAtIndex:0] objectForKey:@"asistencias"]];
+                                   
+                                   [anton modificowithTotales:[[obj objectAtIndex:1] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:1] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:1] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:1] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:1] objectForKey:@"asistencias"]];
+                                   
+                                   [cano modificowithTotales:[[obj objectAtIndex:2] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:2] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:2] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:2] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:2] objectForKey:@"asistencias"]];
+                                   
+                                   [hugo modificowithTotales:[[obj objectAtIndex:3] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:3] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:3] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:3] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:3] objectForKey:@"asistencias"]];
+                                   
+                                   [jordan modificowithTotales:[[obj objectAtIndex:4] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:4] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:4] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:4] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:4] objectForKey:@"asistencias"]];
+                                   
+                                   [juanito modificowithTotales:[[obj objectAtIndex:5] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:5] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:5] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:5] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:5] objectForKey:@"asistencias"]];
+                                   
+                                   [meri modificowithTotales:[[obj objectAtIndex:6] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:6] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:6] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:6] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:6] objectForKey:@"asistencias"]];
+                                   
+                                   [fer modificowithTotales:[[obj objectAtIndex:7] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:7] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:7] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:7] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:7] objectForKey:@"asistencias"]];
+                                   
+                                   //calculo el porcentaje
+                                   float golesTotales=[[abel goles2] floatValue]+[[anton goles2] floatValue]+[[cano goles2] floatValue]+[[hugo goles2] floatValue]+[[jordan goles2] floatValue]+[[juanito goles2] floatValue]+[[meri goles2] floatValue]+[[fer goles2] floatValue];
+                                   [abel calcularPorcentajeWithGoles:golesTotales];
+                                   [anton calcularPorcentajeWithGoles:golesTotales];
+                                   [cano calcularPorcentajeWithGoles:golesTotales];
+                                   [hugo calcularPorcentajeWithGoles:golesTotales];
+                                   [jordan calcularPorcentajeWithGoles:golesTotales];
+                                   [juanito calcularPorcentajeWithGoles:golesTotales];
+                                   [meri calcularPorcentajeWithGoles:golesTotales];
+                                   [fer calcularPorcentajeWithGoles:golesTotales];
+                                   [self.tableView reloadData];
+                                   
+                                   UIAlertView *alerta=[[UIAlertView alloc]initWithTitle:@"Estadisticas"
+                                                                                 message:@"Datos Actualizados"
+                                                                                delegate:nil
+                                                                       cancelButtonTitle:nil
+                                                                       otherButtonTitles:@"OK", nil];
+                                   [alerta show];
+                                   [indicador stopAnimating];
+                                   
+                                   
+                               }];
+                               
+                               
+                           }];
+    
+}
+
+-(void) mostrarGrafica{
+    
+    NSString *link =
+    @"http://hidandroid.hol.es/catenaxio/obtener_estadisticas.php";
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:link]];
+    
+    [NSURLConnection sendAsynchronousRequest:request
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response,
+                                               NSData *data,
+                                               NSError *connectionError) {
+                               // handle response
+                               NSString * text = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+                               NSDictionary *notesJSON =[NSJSONSerialization JSONObjectWithData:data
+                                                                                        options:NSJSONReadingAllowFragments
+                                                                                          error:&connectionError];
+                               //NSLog(@"Los datos son %@",notesJSON);
+                               [notesJSON enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+                                   //
+                                   //if ([[obj objectForKey:@"jugador"] isEqualToString:@"Abel"]) {
+                                   
+                                   NSLog(@"El objeto filtro %@",[obj objectAtIndex:5]);
+                                   
+                                   //}
+                                   
+                                   //inserto valores
+                                   [abel modificowithTotales:[[obj objectAtIndex:0] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:0] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:0] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:0] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:0] objectForKey:@"asistencias"]];
+                                   
+                                   [anton modificowithTotales:[[obj objectAtIndex:1] objectForKey:@"partidos"]
+                                                  withJugados:[[obj objectAtIndex:1] objectForKey:@"titulares"]
+                                                  withGanados:[[obj objectAtIndex:1] objectForKey:@"partidosGanados"]
+                                                    withGoles:[[obj objectAtIndex:1] objectForKey:@"goles"]
+                                               withPorcentaje:@"0"
+                                               withAsistencia:[[obj objectAtIndex:1] objectForKey:@"asistencias"]];
+                                   
+                                   [cano modificowithTotales:[[obj objectAtIndex:2] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:2] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:2] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:2] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:2] objectForKey:@"asistencias"]];
+                                   
+                                   [hugo modificowithTotales:[[obj objectAtIndex:3] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:3] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:3] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:3] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:3] objectForKey:@"asistencias"]];
+                                   
+                                   [jordan modificowithTotales:[[obj objectAtIndex:4] objectForKey:@"partidos"]
+                                                   withJugados:[[obj objectAtIndex:4] objectForKey:@"titulares"]
+                                                   withGanados:[[obj objectAtIndex:4] objectForKey:@"partidosGanados"]
+                                                     withGoles:[[obj objectAtIndex:4] objectForKey:@"goles"]
+                                                withPorcentaje:@"0"
+                                                withAsistencia:[[obj objectAtIndex:4] objectForKey:@"asistencias"]];
+                                   
+                                   [juanito modificowithTotales:[[obj objectAtIndex:5] objectForKey:@"partidos"]
+                                                    withJugados:[[obj objectAtIndex:5] objectForKey:@"titulares"]
+                                                    withGanados:[[obj objectAtIndex:5] objectForKey:@"partidosGanados"]
+                                                      withGoles:[[obj objectAtIndex:5] objectForKey:@"goles"]
+                                                 withPorcentaje:@"0"
+                                                 withAsistencia:[[obj objectAtIndex:5] objectForKey:@"asistencias"]];
+                                   
+                                   [meri modificowithTotales:[[obj objectAtIndex:6] objectForKey:@"partidos"]
+                                                 withJugados:[[obj objectAtIndex:6] objectForKey:@"titulares"]
+                                                 withGanados:[[obj objectAtIndex:6] objectForKey:@"partidosGanados"]
+                                                   withGoles:[[obj objectAtIndex:6] objectForKey:@"goles"]
+                                              withPorcentaje:@"0"
+                                              withAsistencia:[[obj objectAtIndex:6] objectForKey:@"asistencias"]];
+                                   
+                                   [fer modificowithTotales:[[obj objectAtIndex:7] objectForKey:@"partidos"]
+                                                withJugados:[[obj objectAtIndex:7] objectForKey:@"titulares"]
+                                                withGanados:[[obj objectAtIndex:7] objectForKey:@"partidosGanados"]
+                                                  withGoles:[[obj objectAtIndex:7] objectForKey:@"goles"]
+                                             withPorcentaje:@"0"
+                                             withAsistencia:[[obj objectAtIndex:7] objectForKey:@"asistencias"]];
+                                   
+                                   //calculo el porcentaje
+                                   float golesTotales=[[abel goles2] floatValue]+[[anton goles2] floatValue]+[[cano goles2] floatValue]+[[hugo goles2] floatValue]+[[jordan goles2] floatValue]+[[juanito goles2] floatValue]+[[meri goles2] floatValue]+[[fer goles2] floatValue];
+                                   [abel calcularPorcentajeWithGoles:golesTotales];
+                                   [anton calcularPorcentajeWithGoles:golesTotales];
+                                   [cano calcularPorcentajeWithGoles:golesTotales];
+                                   [hugo calcularPorcentajeWithGoles:golesTotales];
+                                   [jordan calcularPorcentajeWithGoles:golesTotales];
+                                   [juanito calcularPorcentajeWithGoles:golesTotales];
+                                   [meri calcularPorcentajeWithGoles:golesTotales];
+                                   [fer calcularPorcentajeWithGoles:golesTotales];
+                                   [self.tableView reloadData];
+                                   
+                                   
+                                   [indicador stopAnimating];
+                                   HIDWebController *web=[[HIDWebController alloc]initWithGolesAbel:[[abel goles2] integerValue] withGolesAnton:[[anton goles2] integerValue]  withGolesCano:[[cano goles2] integerValue]  withGolesHugo:[[hugo goles2] integerValue]  withGolesJordan:[[jordan goles2] integerValue]  withGolesMeri:[[meri goles2] integerValue]  withGolesJuanito:[[juanito goles2] integerValue] ];
+                                   [self.navigationController pushViewController:web animated:YES];
+                                   
+                               }];
+                               
+                               
+                           }];
+
+    
+    
+    
+    
+    
+   
 }
 
 @end

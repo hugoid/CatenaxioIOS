@@ -34,4 +34,24 @@
     return self;
 }
 
+-(void) modificowithTotales:(NSString *) PartidosTotales
+              withJugados:(NSString *) PartidosJugados
+              withGanados:(NSString *) PartidosGanados
+                withGoles:(NSString *) Goles
+           withPorcentaje:(NSString *) Porcentaje
+           withAsistencia:(NSString *) Asistencia{
+    self.totales2=PartidosTotales;
+    self.ganados2=PartidosGanados;
+    self.jugados2=PartidosJugados;
+    self.porcentaje2=Porcentaje;
+    self.goles2=Goles;
+    self.asistencia2=Asistencia;
+    
+    
+}
+-(void) calcularPorcentajeWithGoles:(float) goles{
+    float porcentaje=[self.goles2 floatValue] /goles;
+    NSString *stringPorcentaje=[NSString stringWithFormat:@"%.1f",porcentaje];
+    self.porcentaje2=stringPorcentaje;
+}
 @end

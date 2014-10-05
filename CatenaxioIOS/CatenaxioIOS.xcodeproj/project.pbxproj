@@ -19,6 +19,8 @@
 		21A80ACE19D49C7A00FFE67D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB619D49C7A00FFE67D /* UIKit.framework */; };
 		21A80AD619D49C7A00FFE67D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A80AD419D49C7A00FFE67D /* InfoPlist.strings */; };
 		21A80AD819D49C7A00FFE67D /* CatenaxioIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A80AD719D49C7A00FFE67D /* CatenaxioIOSTests.m */; };
+		21AA5C7619E153F1005E53F8 /* HIDWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA5C7419E153F1005E53F8 /* HIDWebController.m */; };
+		21AA5C7719E153F1005E53F8 /* HIDWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AA5C7519E153F1005E53F8 /* HIDWebController.xib */; };
 		21AE7A9319D6B7ED00E9FCEC /* HIDPantallaPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7A9119D6B7ED00E9FCEC /* HIDPantallaPrincipal.m */; };
 		21AE7A9419D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7A9219D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib */; };
 		21AE7A9719D6BB3E00E9FCEC /* HIDCalendario.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7A9619D6BB3E00E9FCEC /* HIDCalendario.m */; };
@@ -68,6 +70,9 @@
 		21A80AD319D49C7A00FFE67D /* CatenaxioIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatenaxioIOSTests-Info.plist"; sourceTree = "<group>"; };
 		21A80AD519D49C7A00FFE67D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21A80AD719D49C7A00FFE67D /* CatenaxioIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatenaxioIOSTests.m; sourceTree = "<group>"; };
+		21AA5C7319E153F1005E53F8 /* HIDWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDWebController.h; sourceTree = "<group>"; };
+		21AA5C7419E153F1005E53F8 /* HIDWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDWebController.m; sourceTree = "<group>"; };
+		21AA5C7519E153F1005E53F8 /* HIDWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDWebController.xib; sourceTree = "<group>"; };
 		21AE7A9019D6B7ED00E9FCEC /* HIDPantallaPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDPantallaPrincipal.h; sourceTree = "<group>"; };
 		21AE7A9119D6B7ED00E9FCEC /* HIDPantallaPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDPantallaPrincipal.m; sourceTree = "<group>"; };
 		21AE7A9219D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDPantallaPrincipal.xib; sourceTree = "<group>"; };
@@ -224,6 +229,9 @@
 				21CAAE2B19D8253700123607 /* HIDPartidosPerdidos.h */,
 				21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */,
 				21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */,
+				21AA5C7319E153F1005E53F8 /* HIDWebController.h */,
+				21AA5C7419E153F1005E53F8 /* HIDWebController.m */,
+				21AA5C7519E153F1005E53F8 /* HIDWebController.xib */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -331,6 +339,7 @@
 				21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */,
 				21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */,
 				21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */,
+				21AA5C7719E153F1005E53F8 /* HIDWebController.xib in Resources */,
 				21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */,
 				21CAAE2019D8246A00123607 /* HIDLiga.xib in Resources */,
 				21A80AC519D49C7A00FFE67D /* Images.xcassets in Resources */,
@@ -368,6 +377,7 @@
 				21CAAE2419D8251200123607 /* HIDPartidosGanados.m in Sources */,
 				21A80AC319D49C7A00FFE67D /* HIDAppDelegate.m in Sources */,
 				21CAAE1F19D8246A00123607 /* HIDLiga.m in Sources */,
+				21AA5C7619E153F1005E53F8 /* HIDWebController.m in Sources */,
 				21A80ABF19D49C7A00FFE67D /* main.m in Sources */,
 				21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */,
 			);

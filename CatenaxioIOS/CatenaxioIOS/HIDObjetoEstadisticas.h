@@ -25,4 +25,12 @@
             withGoles:(NSString *) Goles
        withPorcentaje:(NSString *) Porcentaje
        withAsistencia:(NSString *) Asistencia;
+
+-(void) modificowithTotales:(NSString *) PartidosTotales
+          withJugados:(NSString *) PartidosJugados
+          withGanados:(NSString *) PartidosGanados
+            withGoles:(NSString *) Goles
+       withPorcentaje:(NSString *) Porcentaje
+       withAsistencia:(NSString *) Asistencia;
+-(void) calcularPorcentajeWithGoles:(float) goles;
 @end

@@ -49,6 +49,16 @@
     //cambiar textos de la barra color
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,nil]];
     
+    //cargo la imagen
+    //insertar botones en la barra de herramientas
+    UIBarButtonItem *botonDescargar=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
+                                                                                   target:self
+                                                                                   action:@selector(pulsarBotonDescargar:)];
+ 
+    //self.navigationItem.rightBarButtonItem=botonActualizar;
+    
+    //[self.navigationItem setRightBarButtonItems:@[botonDescargar] animated:YES];
+    [self.tabBarController.navigationItem setRightBarButtonItem:botonDescargar];
 
 }
 
@@ -56,6 +66,23 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) pulsarBotonDescargar:(id) sender{
+    NSString *link =
+    @"http://hidandroid.hol.es/catenaxio/clasificacion.png";
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:link]];
+    
+    [NSURLConnection sendAsynchronousRequest:request
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response,
+                                               NSData *data,
+                                               NSError *connectionError) {
+                               UIImage *imagen=[UIImage imageWithData:data];
+                               self.imagenClasificacion.image=imagen;
+                           }];
+    
 }
 
 @end

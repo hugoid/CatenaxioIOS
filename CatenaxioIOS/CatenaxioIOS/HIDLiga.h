@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HIDLiga : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *imagenClasificacion;
 
 @end

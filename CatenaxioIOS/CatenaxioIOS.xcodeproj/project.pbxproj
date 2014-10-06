@@ -30,6 +30,8 @@
 		21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA319D6CE6800E9FCEC /* HIDConvocatoria.m */; };
 		21AE7AA619D6CE6800E9FCEC /* HIDConvocatoria.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */; };
 		21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */; };
+		21C57EF619E31EE00040B340 /* HIDResultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C57EF419E31EE00040B340 /* HIDResultados.m */; };
+		21C57EF719E31EE00040B340 /* HIDResultados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C57EF519E31EE00040B340 /* HIDResultados.xib */; };
 		21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */; };
 		21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */; };
 		21CAAE1B19D81A1100123607 /* HIDCeldaEstadisticaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */; };
@@ -88,6 +90,9 @@
 		21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDConvocatoria.xib; sourceTree = "<group>"; };
 		21AE7AA719D6CF1300E9FCEC /* HIDEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDEstadisticas.h; sourceTree = "<group>"; };
 		21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDEstadisticas.m; sourceTree = "<group>"; };
+		21C57EF319E31EE00040B340 /* HIDResultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDResultados.h; sourceTree = "<group>"; };
+		21C57EF419E31EE00040B340 /* HIDResultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDResultados.m; sourceTree = "<group>"; };
+		21C57EF519E31EE00040B340 /* HIDResultados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDResultados.xib; sourceTree = "<group>"; };
 		21CAAE1419D812B300123607 /* HIDObjetoEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDObjetoEstadisticas.h; sourceTree = "<group>"; };
 		21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDObjetoEstadisticas.m; sourceTree = "<group>"; };
 		21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaEstadisticas.xib; sourceTree = "<group>"; };
@@ -164,6 +169,7 @@
 		21A80AB819D49C7A00FFE67D /* CatenaxioIOS */ = {
 			isa = PBXGroup;
 			children = (
+				21C57EF219E315AD0040B340 /* ControladoresWeb */,
 				21AE7A9C19D6BF6B00E9FCEC /* CeldasTablas */,
 				21AE7A9819D6BBBC00E9FCEC /* Modelos */,
 				21AE7A8F19D6B7CE00E9FCEC /* Controladores */,
@@ -229,9 +235,9 @@
 				21CAAE2B19D8253700123607 /* HIDPartidosPerdidos.h */,
 				21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */,
 				21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */,
-				21AA5C7319E153F1005E53F8 /* HIDWebController.h */,
-				21AA5C7419E153F1005E53F8 /* HIDWebController.m */,
-				21AA5C7519E153F1005E53F8 /* HIDWebController.xib */,
+				21C57EF319E31EE00040B340 /* HIDResultados.h */,
+				21C57EF419E31EE00040B340 /* HIDResultados.m */,
+				21C57EF519E31EE00040B340 /* HIDResultados.xib */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -258,6 +264,16 @@
 				21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */,
 			);
 			name = CeldasTablas;
+			sourceTree = "<group>";
+		};
+		21C57EF219E315AD0040B340 /* ControladoresWeb */ = {
+			isa = PBXGroup;
+			children = (
+				21AA5C7319E153F1005E53F8 /* HIDWebController.h */,
+				21AA5C7419E153F1005E53F8 /* HIDWebController.m */,
+				21AA5C7519E153F1005E53F8 /* HIDWebController.xib */,
+			);
+			name = ControladoresWeb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */,
+				21C57EF719E31EE00040B340 /* HIDResultados.xib in Resources */,
 				21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */,
 				21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */,
 				21AA5C7719E153F1005E53F8 /* HIDWebController.xib in Resources */,
@@ -370,6 +387,7 @@
 				21AE7A9319D6B7ED00E9FCEC /* HIDPantallaPrincipal.m in Sources */,
 				21AE7A9719D6BB3E00E9FCEC /* HIDCalendario.m in Sources */,
 				21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */,
+				21C57EF619E31EE00040B340 /* HIDResultados.m in Sources */,
 				21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */,
 				21AE7AA119D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m in Sources */,
 				21AE7A9B19D6BBD600E9FCEC /* HIDObjetoCalendario.m in Sources */,

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HIDPartidosGanados : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *visorWeb;
 
 @end

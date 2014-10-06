@@ -13,6 +13,7 @@
 #import "HIDPartidosEmpatados.h"
 #import "HIDPartidosPerdidos.h"
 #import "HIDPartidosGanados.h"
+#import "HIDResultados.h"
 
 @interface HIDPantallaPrincipal ()
 
@@ -64,11 +65,12 @@
     HIDPartidosEmpatados *empatados=[[HIDPartidosEmpatados alloc]init];
     HIDPartidosGanados *ganados=[[HIDPartidosGanados alloc]init];
     HIDPartidosPerdidos *perdidos=[[HIDPartidosPerdidos alloc]init];
+    HIDResultados *resultados=[[HIDResultados alloc]init];
    // UINavigationBar *bar=[[UINavigationBar alloc]init];
     
    
     UITabBarController *tab=[[UITabBarController alloc]init];
-    tab.viewControllers=@[liga,ganados,empatados,perdidos];
+    tab.viewControllers=@[liga,resultados,ganados,empatados,perdidos];
     [self.navigationController pushViewController:tab animated:YES];
     
 }

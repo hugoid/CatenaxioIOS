@@ -13,7 +13,7 @@
 #import "HIDPartidosEmpatados.h"
 #import "HIDPartidosPerdidos.h"
 #import "HIDPartidosGanados.h"
-#import "HIDResultados.h"
+#import "HIDTablaResultadosTableViewController.h"
 
 @interface HIDPantallaPrincipal ()
 
@@ -65,7 +65,7 @@
     HIDPartidosEmpatados *empatados=[[HIDPartidosEmpatados alloc]init];
     HIDPartidosGanados *ganados=[[HIDPartidosGanados alloc]init];
     HIDPartidosPerdidos *perdidos=[[HIDPartidosPerdidos alloc]init];
-    HIDResultados *resultados=[[HIDResultados alloc]init];
+    HIDTablaResultadosTableViewController *resultados=[[HIDTablaResultadosTableViewController alloc]init];
    // UINavigationBar *bar=[[UINavigationBar alloc]init];
     
    

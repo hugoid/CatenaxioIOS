@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216E5EBA19E466C10076B72D /* CeldaResultados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216E5EB719E466C10076B72D /* CeldaResultados.xib */; };
+		216E5EBB19E466C10076B72D /* HIDCeldaResultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5EB919E466C10076B72D /* HIDCeldaResultados.m */; };
+		216E5EBE19E466DF0076B72D /* HIDObjetoResultado.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5EBD19E466DF0076B72D /* HIDObjetoResultado.m */; };
+		216E5EC119E4670C0076B72D /* HIDTablaResultadosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5EC019E4670C0076B72D /* HIDTablaResultadosTableViewController.m */; };
 		21A80AB319D49C7A00FFE67D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB219D49C7A00FFE67D /* Foundation.framework */; };
 		21A80AB519D49C7A00FFE67D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB419D49C7A00FFE67D /* CoreGraphics.framework */; };
 		21A80AB719D49C7A00FFE67D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB619D49C7A00FFE67D /* UIKit.framework */; };
@@ -30,8 +34,6 @@
 		21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA319D6CE6800E9FCEC /* HIDConvocatoria.m */; };
 		21AE7AA619D6CE6800E9FCEC /* HIDConvocatoria.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */; };
 		21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */; };
-		21C57EF619E31EE00040B340 /* HIDResultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C57EF419E31EE00040B340 /* HIDResultados.m */; };
-		21C57EF719E31EE00040B340 /* HIDResultados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C57EF519E31EE00040B340 /* HIDResultados.xib */; };
 		21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */; };
 		21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */; };
 		21CAAE1B19D81A1100123607 /* HIDCeldaEstadisticaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */; };
@@ -56,6 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216E5EB719E466C10076B72D /* CeldaResultados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaResultados.xib; sourceTree = "<group>"; };
+		216E5EB819E466C10076B72D /* HIDCeldaResultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCeldaResultados.h; sourceTree = "<group>"; };
+		216E5EB919E466C10076B72D /* HIDCeldaResultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCeldaResultados.m; sourceTree = "<group>"; };
+		216E5EBC19E466DF0076B72D /* HIDObjetoResultado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDObjetoResultado.h; sourceTree = "<group>"; };
+		216E5EBD19E466DF0076B72D /* HIDObjetoResultado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDObjetoResultado.m; sourceTree = "<group>"; };
+		216E5EBF19E4670C0076B72D /* HIDTablaResultadosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDTablaResultadosTableViewController.h; sourceTree = "<group>"; };
+		216E5EC019E4670C0076B72D /* HIDTablaResultadosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDTablaResultadosTableViewController.m; sourceTree = "<group>"; };
 		21A80AAF19D49C7A00FFE67D /* CatenaxioIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatenaxioIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A80AB219D49C7A00FFE67D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21A80AB419D49C7A00FFE67D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,9 +99,6 @@
 		21AE7AA419D6CE6800E9FCEC /* HIDConvocatoria.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDConvocatoria.xib; sourceTree = "<group>"; };
 		21AE7AA719D6CF1300E9FCEC /* HIDEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDEstadisticas.h; sourceTree = "<group>"; };
 		21AE7AA819D6CF1300E9FCEC /* HIDEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDEstadisticas.m; sourceTree = "<group>"; };
-		21C57EF319E31EE00040B340 /* HIDResultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDResultados.h; sourceTree = "<group>"; };
-		21C57EF419E31EE00040B340 /* HIDResultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDResultados.m; sourceTree = "<group>"; };
-		21C57EF519E31EE00040B340 /* HIDResultados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIDResultados.xib; sourceTree = "<group>"; };
 		21CAAE1419D812B300123607 /* HIDObjetoEstadisticas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDObjetoEstadisticas.h; sourceTree = "<group>"; };
 		21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDObjetoEstadisticas.m; sourceTree = "<group>"; };
 		21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaEstadisticas.xib; sourceTree = "<group>"; };
@@ -235,9 +241,8 @@
 				21CAAE2B19D8253700123607 /* HIDPartidosPerdidos.h */,
 				21CAAE2C19D8253700123607 /* HIDPartidosPerdidos.m */,
 				21CAAE2D19D8253700123607 /* HIDPartidosPerdidos.xib */,
-				21C57EF319E31EE00040B340 /* HIDResultados.h */,
-				21C57EF419E31EE00040B340 /* HIDResultados.m */,
-				21C57EF519E31EE00040B340 /* HIDResultados.xib */,
+				216E5EBF19E4670C0076B72D /* HIDTablaResultadosTableViewController.h */,
+				216E5EC019E4670C0076B72D /* HIDTablaResultadosTableViewController.m */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -249,6 +254,8 @@
 				21AE7A9A19D6BBD600E9FCEC /* HIDObjetoCalendario.m */,
 				21CAAE1419D812B300123607 /* HIDObjetoEstadisticas.h */,
 				21CAAE1519D812B300123607 /* HIDObjetoEstadisticas.m */,
+				216E5EBC19E466DF0076B72D /* HIDObjetoResultado.h */,
+				216E5EBD19E466DF0076B72D /* HIDObjetoResultado.m */,
 			);
 			name = Modelos;
 			sourceTree = "<group>";
@@ -262,6 +269,9 @@
 				21CAAE1719D8189D00123607 /* CeldaEstadisticas.xib */,
 				21CAAE1919D81A1100123607 /* HIDCeldaEstadisticaCell.h */,
 				21CAAE1A19D81A1100123607 /* HIDCeldaEstadisticaCell.m */,
+				216E5EB719E466C10076B72D /* CeldaResultados.xib */,
+				216E5EB819E466C10076B72D /* HIDCeldaResultados.h */,
+				216E5EB919E466C10076B72D /* HIDCeldaResultados.m */,
 			);
 			name = CeldasTablas;
 			sourceTree = "<group>";
@@ -353,9 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */,
-				21C57EF719E31EE00040B340 /* HIDResultados.xib in Resources */,
 				21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */,
 				21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */,
+				216E5EBA19E466C10076B72D /* CeldaResultados.xib in Resources */,
 				21AA5C7719E153F1005E53F8 /* HIDWebController.xib in Resources */,
 				21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */,
 				21CAAE2019D8246A00123607 /* HIDLiga.xib in Resources */,
@@ -384,10 +394,10 @@
 			files = (
 				21CAAE2919D8252700123607 /* HIDPartidosEmpatados.m in Sources */,
 				21CAAE2E19D8253700123607 /* HIDPartidosPerdidos.m in Sources */,
+				216E5EC119E4670C0076B72D /* HIDTablaResultadosTableViewController.m in Sources */,
 				21AE7A9319D6B7ED00E9FCEC /* HIDPantallaPrincipal.m in Sources */,
 				21AE7A9719D6BB3E00E9FCEC /* HIDCalendario.m in Sources */,
 				21AE7AA919D6CF1300E9FCEC /* HIDEstadisticas.m in Sources */,
-				21C57EF619E31EE00040B340 /* HIDResultados.m in Sources */,
 				21CAAE1619D812B300123607 /* HIDObjetoEstadisticas.m in Sources */,
 				21AE7AA119D6C0B400E9FCEC /* HIDCeldaTablaCalendarioCell.m in Sources */,
 				21AE7A9B19D6BBD600E9FCEC /* HIDObjetoCalendario.m in Sources */,
@@ -395,6 +405,8 @@
 				21CAAE2419D8251200123607 /* HIDPartidosGanados.m in Sources */,
 				21A80AC319D49C7A00FFE67D /* HIDAppDelegate.m in Sources */,
 				21CAAE1F19D8246A00123607 /* HIDLiga.m in Sources */,
+				216E5EBB19E466C10076B72D /* HIDCeldaResultados.m in Sources */,
+				216E5EBE19E466DF0076B72D /* HIDObjetoResultado.m in Sources */,
 				21AA5C7619E153F1005E53F8 /* HIDWebController.m in Sources */,
 				21A80ABF19D49C7A00FFE67D /* main.m in Sources */,
 				21AE7AA519D6CE6800E9FCEC /* HIDConvocatoria.m in Sources */,

@@ -14,6 +14,7 @@
 #import "HIDPartidosPerdidos.h"
 #import "HIDPartidosGanados.h"
 #import "HIDTablaResultadosTableViewController.h"
+#import "HIDTablaConvocatoria.h"
 
 @interface HIDPantallaPrincipal ()
 
@@ -53,6 +54,8 @@
 }
 
 - (IBAction)pushConvocatoria:(id)sender {
+    HIDTablaConvocatoria *tabla=[[HIDTablaConvocatoria alloc]init];
+    [self.navigationController pushViewController:tabla animated:YES];
 }
 
 - (IBAction)pushEstadisticas:(id)sender {

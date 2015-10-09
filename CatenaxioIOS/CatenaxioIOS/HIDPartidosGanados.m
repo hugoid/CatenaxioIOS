@@ -45,9 +45,11 @@
     //self.navigationItem.rightBarButtonItem=botonActualizar;
     
     //[self.navigationItem setRightBarButtonItems:@[botonDescargar] animated:YES];
-    [self.tabBarController.navigationItem setRightBarButtonItem:botonDescargar];
+    //[self.tabBarController.navigationItem setRightBarButtonItem:botonDescargar];
 
-    
+    NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"ejemplo2" ofType:@"html"];
+    NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    [self.visorWeb loadHTMLString:htmlString baseURL:nil];
     
 
 }

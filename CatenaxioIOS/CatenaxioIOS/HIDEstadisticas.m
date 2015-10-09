@@ -25,6 +25,8 @@ HIDObjetoEstadisticas *jordan;
 HIDObjetoEstadisticas *juanito;
 HIDObjetoEstadisticas *meri;
 HIDObjetoEstadisticas *fer;
+HIDObjetoEstadisticas *abelD;
+HIDObjetoEstadisticas *juanma;
 UIActivityIndicatorView *indicador;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -107,6 +109,24 @@ UIActivityIndicatorView *indicador;
                                            withPorcentaje:@"0"
                                            withAsistencia:@"0"];
         [celdasEstadisticas addObject:fer];
+        
+        abelD=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"abelD"]
+                                              withTotales:@"0"
+                                              withJugados:@"0"
+                                              withGanados:@"0"
+                                                withGoles:@"0"
+                                           withPorcentaje:@"0"
+                                           withAsistencia:@"0"];
+        [celdasEstadisticas addObject:abelD];
+        
+        juanma=[[HIDObjetoEstadisticas alloc]initWithJugador:[UIImage imageNamed:@"juanma"]
+                                                withTotales:@"0"
+                                                withJugados:@"0"
+                                                withGanados:@"0"
+                                                  withGoles:@"0"
+                                             withPorcentaje:@"0"
+                                             withAsistencia:@"0"];
+        [celdasEstadisticas addObject:juanma];
     
     }
     return self;

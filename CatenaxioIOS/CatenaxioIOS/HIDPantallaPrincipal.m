@@ -65,15 +65,15 @@
 
 - (IBAction)pushClasificacion:(id)sender {
     HIDLiga *liga=[[HIDLiga alloc]init];
-    HIDPartidosEmpatados *empatados=[[HIDPartidosEmpatados alloc]init];
+    //HIDPartidosEmpatados *empatados=[[HIDPartidosEmpatados alloc]init];
     HIDPartidosGanados *ganados=[[HIDPartidosGanados alloc]init];
     HIDPartidosPerdidos *perdidos=[[HIDPartidosPerdidos alloc]init];
-    HIDTablaResultadosTableViewController *resultados=[[HIDTablaResultadosTableViewController alloc]init];
+    //HIDTablaResultadosTableViewController *resultados=[[HIDTablaResultadosTableViewController alloc]init];
    // UINavigationBar *bar=[[UINavigationBar alloc]init];
     
    
     UITabBarController *tab=[[UITabBarController alloc]init];
-    tab.viewControllers=@[liga,resultados,ganados,empatados,perdidos];
+    tab.viewControllers=@[liga,ganados];
     [self.navigationController pushViewController:tab animated:YES];
     
 }

@@ -51,14 +51,14 @@
     
     //cargo la imagen
     //insertar botones en la barra de herramientas
-    UIBarButtonItem *botonDescargar=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
+   /* UIBarButtonItem *botonDescargar=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
                                                                                    target:self
                                                                                    action:@selector(pulsarBotonDescargar:)];
  
     //self.navigationItem.rightBarButtonItem=botonActualizar;
     
     //[self.navigationItem setRightBarButtonItems:@[botonDescargar] animated:YES];
-    [self.tabBarController.navigationItem setRightBarButtonItem:botonDescargar];
+    [self.tabBarController.navigationItem setRightBarButtonItem:botonDescargar];*/
 
 }
 

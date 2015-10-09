@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213AE4C41BC7C80A00D23CFC /* ejemplo2.html in Resources */ = {isa = PBXBuildFile; fileRef = 213AE4C31BC7C80A00D23CFC /* ejemplo2.html */; settings = {ASSET_TAGS = (); }; };
 		216E5EBA19E466C10076B72D /* CeldaResultados.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216E5EB719E466C10076B72D /* CeldaResultados.xib */; };
 		216E5EBB19E466C10076B72D /* HIDCeldaResultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5EB919E466C10076B72D /* HIDCeldaResultados.m */; };
 		216E5EBE19E466DF0076B72D /* HIDObjetoResultado.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5EBD19E466DF0076B72D /* HIDObjetoResultado.m */; };
@@ -17,7 +18,7 @@
 		21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A80ABB19D49C7A00FFE67D /* InfoPlist.strings */; };
 		21A80ABF19D49C7A00FFE67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A80ABE19D49C7A00FFE67D /* main.m */; };
 		21A80AC319D49C7A00FFE67D /* HIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A80AC219D49C7A00FFE67D /* HIDAppDelegate.m */; };
-		21A80AC519D49C7A00FFE67D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A80AC419D49C7A00FFE67D /* Images.xcassets */; };
+		21A80AC519D49C7A00FFE67D /* ima.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A80AC419D49C7A00FFE67D /* ima.xcassets */; };
 		21A80ACC19D49C7A00FFE67D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80ACB19D49C7A00FFE67D /* XCTest.framework */; };
 		21A80ACD19D49C7A00FFE67D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB219D49C7A00FFE67D /* Foundation.framework */; };
 		21A80ACE19D49C7A00FFE67D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A80AB619D49C7A00FFE67D /* UIKit.framework */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213AE4C31BC7C80A00D23CFC /* ejemplo2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ejemplo2.html; sourceTree = "<group>"; };
 		216E5EB719E466C10076B72D /* CeldaResultados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaResultados.xib; sourceTree = "<group>"; };
 		216E5EB819E466C10076B72D /* HIDCeldaResultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDCeldaResultados.h; sourceTree = "<group>"; };
 		216E5EB919E466C10076B72D /* HIDCeldaResultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDCeldaResultados.m; sourceTree = "<group>"; };
@@ -79,7 +81,7 @@
 		21A80AC019D49C7A00FFE67D /* CatenaxioIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatenaxioIOS-Prefix.pch"; sourceTree = "<group>"; };
 		21A80AC119D49C7A00FFE67D /* HIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIDAppDelegate.h; sourceTree = "<group>"; };
 		21A80AC219D49C7A00FFE67D /* HIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIDAppDelegate.m; sourceTree = "<group>"; };
-		21A80AC419D49C7A00FFE67D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21A80AC419D49C7A00FFE67D /* ima.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ima.xcassets; sourceTree = "<group>"; };
 		21A80ACA19D49C7A00FFE67D /* CatenaxioIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatenaxioIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A80ACB19D49C7A00FFE67D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		21A80AD319D49C7A00FFE67D /* CatenaxioIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatenaxioIOSTests-Info.plist"; sourceTree = "<group>"; };
@@ -153,6 +155,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		213AE4C21BC7C7BB00D23CFC /* graficos */ = {
+			isa = PBXGroup;
+			children = (
+				213AE4C31BC7C80A00D23CFC /* ejemplo2.html */,
+			);
+			name = graficos;
+			sourceTree = "<group>";
+		};
 		21A80AA619D49C7900FFE67D = {
 			isa = PBXGroup;
 			children = (
@@ -186,13 +196,14 @@
 		21A80AB819D49C7A00FFE67D /* CatenaxioIOS */ = {
 			isa = PBXGroup;
 			children = (
+				213AE4C21BC7C7BB00D23CFC /* graficos */,
 				21C57EF219E315AD0040B340 /* ControladoresWeb */,
 				21AE7A9C19D6BF6B00E9FCEC /* CeldasTablas */,
 				21AE7A9819D6BBBC00E9FCEC /* Modelos */,
 				21AE7A8F19D6B7CE00E9FCEC /* Controladores */,
 				21A80AC119D49C7A00FFE67D /* HIDAppDelegate.h */,
 				21A80AC219D49C7A00FFE67D /* HIDAppDelegate.m */,
-				21A80AC419D49C7A00FFE67D /* Images.xcassets */,
+				21A80AC419D49C7A00FFE67D /* ima.xcassets */,
 				21A80AB919D49C7A00FFE67D /* Supporting Files */,
 			);
 			path = CatenaxioIOS;
@@ -380,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213AE4C41BC7C80A00D23CFC /* ejemplo2.html in Resources */,
 				21AE7A9E19D6BF8900E9FCEC /* CeldaTablaCalendario.xib in Resources */,
 				21CAAE2F19D8253700123607 /* HIDPartidosPerdidos.xib in Resources */,
 				21A80ABD19D49C7A00FFE67D /* InfoPlist.strings in Resources */,
@@ -387,7 +399,7 @@
 				21AA5C7719E153F1005E53F8 /* HIDWebController.xib in Resources */,
 				21CAAE1819D8189D00123607 /* CeldaEstadisticas.xib in Resources */,
 				21CAAE2019D8246A00123607 /* HIDLiga.xib in Resources */,
-				21A80AC519D49C7A00FFE67D /* Images.xcassets in Resources */,
+				21A80AC519D49C7A00FFE67D /* ima.xcassets in Resources */,
 				21BBF0A919E5B56A00B21582 /* CeldaConvocatoria.xib in Resources */,
 				21CAAE2A19D8252700123607 /* HIDPartidosEmpatados.xib in Resources */,
 				21AE7A9419D6B7ED00E9FCEC /* HIDPantallaPrincipal.xib in Resources */,
@@ -549,11 +561,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CatenaxioIOS/CatenaxioIOS-Prefix.pch";
 				INFOPLIST_FILE = "CatenaxioIOS/CatenaxioIOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -562,11 +574,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CatenaxioIOS/CatenaxioIOS-Prefix.pch";
 				INFOPLIST_FILE = "CatenaxioIOS/CatenaxioIOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
